@@ -61,7 +61,7 @@ var layout = {
     },
     camera: {
       center: { x: 0, y: 1, z: -0.8 },
-      eye: { x: -1.5, y: 3.5, z: -1.2 }
+      eye: { x: -2.5, y: 0, z: -0.5 }
     }
   }
 };
