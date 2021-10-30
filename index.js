@@ -44,7 +44,15 @@ var data = [{
            z: z_data,
            x: x_data,
            y: y_data,
-           type: 'surface'
+           type: 'surface',
+           autocolorscale: false,
+           colorscale: [
+              [0, 'rgb(25, 33, 177)'],
+              [0.2, 'rgb(0, 182, 79)'],
+              [0.4, 'rgb(255, 241, 0)'],
+              [0.6, 'rgb(255, 146, 0)'],
+              [0.8, 'rgb(255, 24, 0)'],
+              [1, 'rgb(203, 0, 119)']]
         }];
 
 var layout = {
