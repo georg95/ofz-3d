@@ -50,14 +50,18 @@ var data = [{
 var layout = {
   title: 'Кривая бескупонной доходности ОФЗ',
   margin: {
-    l: 65,
-    r: 50,
-    b: 65,
+    l: 40,
+    r: 40,
+    b: 40,
     t: 90,
   },
   scene: {
     aspectratio: {
-       x: 1, y: 6, z: 2
+       x: 1, y: 4, z: 3
+    },
+    camera: {
+      center: { x: 0, y: 1, z: -0.8 },
+      eye: { x: -1.5, y: 3.5, z: -1.2 }
     }
   }
 };
